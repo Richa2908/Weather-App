@@ -1,0 +1,211 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.topHeading{
+  color: rgb(139, 163, 143);
+}
+h1 {
+  color: #070000;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type='text'] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+}
+
+.weather {
+  margin-top: 30px;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+ width: 80%;
+ height: 80%;
+  border-radius: 12px;
+  background-color: #2601ae;
+}
+
+.weather h2 {
+  margin-bottom: 10px;
+}
+
+.weather-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-details p {
+  margin: 5px 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://cdn.pixabay.com/photo/2017/05/20/20/22/clouds-2329680_640.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+ 
+
+h1 {
+  color: #000000;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type='text'] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #1414ae;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #02149c;
+}
+
+.error {
+  color: red;
+}
+
+.weather {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.weather h2 {
+  margin-bottom: 10px;
+}
+
+.weather-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-details p {
+  margin: 5px 0;
+}
+
+.top{
+  display:  flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+  row-gap: 5px;
+}
+.btn{
+  margin-left: 5px;
+  border-radius: 10px;
+}
+
+.container{
+  width: 700px;
+  height: 400px;
+  margin-top: 10px;
+  background-image: linear-gradient(to right, rgba(4, 53, 248, 0), rgb(194, 247, 244));
+  box-shadow: 10px 10px 5px;
+  border: 3px solid rgb(153, 151, 151) ;
+  border-radius: 15px;
+ 
+  
+}
+
+.cityName{
+  margin: 50px 150px  0px ;
+  margin-bottom: 50px;
+  
+}
+.cityName h1{
+  font-size: 50px;
+   
+  
+}
+.temp{
+  display: flex;
+  margin-left: 50px;
+  color: #000000;
+ 
+}
+
+.bi-thermometer{
+  margin-top: 5px;
+}
+.dis{
+  margin-left: 0px;
+  color: #000000;
+  font-weight: 900;
+}
+
+.windSpeed{
+  display: flex;
+  margin-left: 50px ;
+  color: #000000;
+}
+.bi-wind{
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.humidity{
+  display: flex;
+  margin-left: 50px;
+  color: #000000;
+}
+
+.bi-water{
+  margin-top: 5px;
+  margin-right: 5px ;
+}
